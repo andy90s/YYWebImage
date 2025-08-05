@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYWebImage'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '1.0.5'
+  s.version      = '1.0.6'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   
   s.dependency 'YYImage'
-  s.dependency 'YYCache'
+  #s.dependency 'YYCache'
   
 end
